@@ -12,4 +12,5 @@ phases:
 
 artifacts:
   files:
-    - ROOT.war
+    - '**/*'
+  base-directory: 'target/ROOT'
