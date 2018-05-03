@@ -13,4 +13,4 @@ phases:
 artifacts:
   files:
     - target/ROOT.war
-    - buildspec.yml
+  discard-paths: yes
