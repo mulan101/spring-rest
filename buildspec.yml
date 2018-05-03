@@ -1,0 +1,16 @@
+version: 0.1
+
+phases:
+  pre_build:
+    commands:
+      - echo maven clean on `date`
+      - mvn clean  
+  build:
+    commands:
+      - echo maven package on `date`
+      - mvn package
+
+artifacts:
+  files:
+    - target/ROOT.war
+    - buildspec.yml
