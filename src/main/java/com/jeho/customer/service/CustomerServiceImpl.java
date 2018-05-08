@@ -16,7 +16,6 @@ import com.jeho.customer.repository.CustomerRepository;
  * @author jeho.han
  */
 @Service("customerService")
-@XRayEnabled
 public class CustomerServiceImpl implements CustomerService {
 	
 	@Autowired

@@ -12,7 +12,6 @@ import com.jeho.customer.domain.Customer;
  * @author jeho.han
  */
 @Repository
-@XRayEnabled
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
 
 }

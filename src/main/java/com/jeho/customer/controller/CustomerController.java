@@ -24,7 +24,6 @@ import com.jeho.customer.service.CustomerService;
  *
  */
 @RestController
-@XRayEnabled
 @RequestMapping(value = "/rest")
 public class CustomerController {
 	
